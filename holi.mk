@@ -199,6 +199,9 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
