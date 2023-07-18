@@ -381,9 +381,9 @@ firmware_directories /vendor/firmware_mnt/image/
 # Kmsg device
 /dev/kmsg                                               0620   root       system
 
-#bug636798, xuxinyu@wt, 20210724,add hardware info
-#hardwareinfo
-/dev/hardwareinfo        0660   root     system
+# hardwareinfo
+/dev/hardwareinfo        0660   root       system
+>>>>>>> c052307 (sm6375-common: ueventd: Give permissions for HW info)
 
 # LED class devices
 /sys/class/leds/red      delay_on     0640    system    system
