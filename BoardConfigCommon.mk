@@ -187,7 +187,11 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
+<<<<<<< HEAD
 VENDOR_SECURITY_PATCH := 2022-11-01
+=======
+VENDOR_SECURITY_PATCH := 2023-07-01
+>>>>>>> bd6f67e (sm6375-common: Update blobs to moonstone MIUI V14.0.4.0.TMPMIXM release-keys)
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
