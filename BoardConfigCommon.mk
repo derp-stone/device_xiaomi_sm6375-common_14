@@ -170,12 +170,11 @@ BOARD_USES_QCOM_HARDWARE := true
 
 
 # Properties
-TARGET_ODM_PROP += $(DEVICE_PATH)/props/odm.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/props/product.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
-
+TARGET_ODM_PROP += $(COMMON_PATH)/props/odm.prop
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/props/product.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/props/system_ext.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/props/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/props/vendor.prop
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
